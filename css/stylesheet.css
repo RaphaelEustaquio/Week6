@@ -11,17 +11,19 @@ ul.list > li {
     border-bottom: 1px gray solid;
 }
 
-a:visited {
+
+li a:link {
+    color: green;
+}
+
+
+li a:visited {
     color: red;
     
 }
 
-a:hover {
+li a:hover {
     color: pink;
-}
-
-a:link {
-    color: green;
 }
 
 li:first-child::first-letter {
@@ -29,6 +31,6 @@ li:first-child::first-letter {
     font-size: 120%;
 }
 
-body > a {
+a[title="BCIT homepage"] {
     background-color: yellow;
 }
